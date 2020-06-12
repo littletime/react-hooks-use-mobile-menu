@@ -1,0 +1,11 @@
+{
+  "name": "react-hooks-use-mobile-menu",
+  "version": "1.0.0",
+  "description": "Your mobile menu state with scroll blocking in one hook!",
+  "main": "useMobileMenu.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
