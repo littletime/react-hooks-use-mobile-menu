@@ -25,7 +25,7 @@ const MobileHeader = () => {
       <img src={logo} alt="my logo" />
       { !open && <img src={burger} onClick={openMenu} }
       { open && <img src={cross} onClick={closeMenu} }
-      <div className="mobile-menu-fixed-content">
+      <div className=`${open ? 'open' : ''} mobile-menu-fixed-content`>
         <Link to="page1">Page 1</Link>
         <Link to="page2">Page 2</Link>
       </div>
