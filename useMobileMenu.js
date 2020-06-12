@@ -23,7 +23,7 @@ export default () => {
   useEffect(() => {
     window.addEventListener('hashchange', closeMenu, false)
     return () => window.removeEventListener('hashchange', closeMenu, false)
-  })
+  }, [])
 
   return [
     open,
