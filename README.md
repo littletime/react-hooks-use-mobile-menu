@@ -3,7 +3,9 @@ Your mobile menu state with scroll blocking in one hook!
 
 # All-in-one mobile menu handler
 
-This hook was created to handle all related problems that come with having a mobile menu: background scroll blocking, self closing on link click.
+This hook was created to handle all related problems that come with having a mobile menu:
+* background scroll blocking
+* self closing on link click.
 
 # Usage
 
