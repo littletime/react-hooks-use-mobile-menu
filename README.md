@@ -7,6 +7,12 @@ This hook was created to handle all related problems that come with having a mob
 * background scroll blocking
 * self closing on link click
 
+# Installation
+
+```
+npm i --save react-hooks-use-mobile-menu
+```
+
 # Usage
 
 ```
