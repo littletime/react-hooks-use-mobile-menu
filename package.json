@@ -1,6 +1,6 @@
 {
   "name": "react-hooks-use-mobile-menu",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Your mobile menu state with scroll blocking in one hook!",
   "main": "useMobileMenu.js",
   "scripts": {
