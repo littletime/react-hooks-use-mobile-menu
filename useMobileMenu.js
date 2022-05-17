@@ -20,10 +20,7 @@ export default () => {
     window.scrollTo(0, scrollPosition)
   }
 
-  useEffect(() => {
-    window.addEventListener('hashchange', closeMenu, false)
-    return () => window.removeEventListener('hashchange', closeMenu, false)
-  }, [])
+  useEffect(() => closeMenu, []);
 
   return [
     open,
