@@ -20,6 +20,7 @@ export default () => {
     window.scrollTo(0, scrollPosition)
   }
 
+  // Close menu and unset body css position when changing page
   useEffect(() => closeMenu, []);
 
   return [
